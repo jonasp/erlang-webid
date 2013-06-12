@@ -1,0 +1,12 @@
+{application, webid,
+ [
+  {description, "WebID implementation"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, {webid_app, []}},
+  {env, [{timeout, 10000}]}
+ ]}.
