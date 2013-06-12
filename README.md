@@ -9,10 +9,10 @@ The raptor bindings used are unfinished and might crash the ErlangVM.
 1. get dependencies ``./rebar get-deps``
 2. compile ``./rebar compile``
 
-At the moment the example needs to be compiled manually and the certificates need to be in the correct place.
-1. ``cd ebin``
-2. ``erlc ../examples/src/webid_example.erl``
-3. ``cp -r ../examples/certs .``
+At the moment the example needs to be compiled manually and the certificates need to be in the correct place.  
+1. ``cd ebin``  
+2. ``erlc ../examples/src/webid_example.erl``  
+3. ``cp -r ../examples/certs .``  
 
 ## usage
 start and stop application as usual
@@ -25,8 +25,8 @@ verify WebID aware certificates
 ```erlang
 {ok, Cert} = ssl:peercert(AcceptedSock),
 DecodedCert = public_key:pkix_decode_cert(Cert, plain),
-webid:verify(DecodedCert)) -> {ok, WebID}
-			               -> {error, eauthfailed}
+webid:verify(DecodedCert) -> {ok, WebID}
+			              -> {error, eauthfailed}
 ```
 
 ## License
