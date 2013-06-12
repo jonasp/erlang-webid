@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:cert="http://www.w3.org/ns/auth/cert#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <foaf:Person rdf:about="https://raw.github.com/jonasp/erlang-webid/master/examples/webid#me">
+    <foaf:name>Example</foaf:name>
+    <cert:key>
+      <cert:RSAPublicKey>
+        <cert:modulus rdf:datatype="http://www.w3.org/2001/XMLSchema#hexBinary">A5486C711D7D210A4EFC26915D530278C54E397C5416D184F1C7F8082F5A34D61CF12AD1451BFCF44EEB14448DC1F322B059E2757BC033878C1A82ED48440EBFAC83CDDDF1D81463F3C73F1174A3D76319DE41512728E88467B10AC4A0575C1D679EB2C0AF0B7837C9F7ACE4DA895383F3B8DF721CBC7CE1000C0BD2811363D245830D7AF254F8CE2E512F897472D308038237779F9F3DBE64180388CCA6A75E3070C7EEE8F4351B198FFF902E443B7F50D930E35B4E605A58BA8AA4C70B445F55C52F265C1D5A8489A18905E703BD18B5D489CDD7BF8A83AAB74A5B99489DDD5D18318057AE0876A8DB5FEBED538864FCE6867DD0F6F0AC36F23E7CE344ED91</cert:modulus>
+        <cert:exponent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65537</cert:exponent>
+      </cert:RSAPublicKey>
+    </cert:key>
+  </foaf:Person>
+</rdf:RDF>
