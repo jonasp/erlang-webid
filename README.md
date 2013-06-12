@@ -1,5 +1,5 @@
-# Erlang WebID
-WebID implementation in Erlang using [erlang-raptor](https://github.com/jonasp/erlang-raptor).
+# WebID+TLS authentication library for _Erlang_
+This library implements the [WebID+TLS](https://dvcs.w3.org/hg/WebID/raw-file/tip/spec/tls-respec.html) authentication protocol using the [raptor bindings](https://github.com/jonasp/erlang-raptor) for Erlang.
 
 ## warning
 This software is at a very early alpha stage.
